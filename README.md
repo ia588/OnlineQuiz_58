@@ -1,8 +1,25 @@
-# OnlineQuiz_58# OnlineQuiz_58 - 在线测验系统
+# OnlineQuiz_58 - 在线测验系统
+
 ## 项目描述
-这是一个基于Python的在线测验系统，支持多种题型和自动评分。
-## 功能特性
-- 用户登录/注册
-- 题库管理
-- 在线测验
-- 自动评分
+这是一个基于Java的在线测验系统，使用Maven进行项目管理。
+
+## 技术栈
+- Java 8+
+- Maven
+- JUnit (测试)
+
+## 项目结构
+OnlineQuiz_58/
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── com/
+│   │           └── onlinequiz58/
+│   │               ├── Main.java
+│   │               ├── user/
+│   │               └── quiz/
+│   └── test/
+│       └── java/
+├── pom.xml
+├── README.md
+└── STRATEGY_ANALYSIS.md
